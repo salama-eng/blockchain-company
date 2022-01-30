@@ -34,6 +34,7 @@ header nav ul {
     font-size: 1.2rem;
     display: flex;
     align-items: center;
+ 
     margin: 0.5rem;
 }
 
@@ -50,8 +51,8 @@ header nav a {
     color: var(--darkcolor1);
 }
 header nav a:hover,
-a:active,
-a:visited {
+a:active
+ {
     text-decoration: none;
     color: var(--lightcolor);
 }
@@ -71,6 +72,7 @@ nav ul li {
 }
 
 header #login {
+    text-decoration:none;
     text-align: center;
     border: 2px solid var(--lightcolor);
     width: 6rem;
@@ -79,6 +81,17 @@ header #login {
     box-shadow: 5px 5px 0px var(--lightcolor);
     margin-left: auto;
     margin-right: 1rem;
+    color: var(--whitecolor);
+}
+header #login a {
+  
+    color: var(--whitecolor);
+}
+
+header #login:hover {
+
+    background-color: var(--lightcolor1);
+
 }
 
 #login1 {
@@ -111,11 +124,13 @@ header h2 {
 }
 
 #navigation {
+    padding-left: 1rem;
+    padding-right: 1rem;
     top: -5px;
     display: flex;
     position: absolute;
     z-index: 2;
-    justify-content: center;
+    justify-content: space-between;
     justify-items: center;
     align-content: center;
     align-items: center;
@@ -302,12 +317,14 @@ header h2 {
     border-radius: 0.3rem;
     border: var(--lightcolor1) solid 1px;
     box-shadow: 3px 3px 1px 1px var(--darkcolor);
+    text-align: left;
+    color: var(--darkcolor);
     padding: 1.5rem;
 }
 
-.job-card h3 {
+.job-card h3 a {
     color: var(--lightcolor);
-    margin-bottom: 1rem;
+    margin-bottom:1rem;
 }
 
 .job-card span {
