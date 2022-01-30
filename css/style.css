@@ -1,6 +1,7 @@
 :root {
     --lightcolor: #04bfa9;
     --lightcolor1: rgba(4, 191, 169, 0.5);
+    --lightcolor2: rgba(4, 191, 169, 0.1);
     --darkcolor: #1c122b;
     --whitecolor: #fff2eb;
     --darkcolor1: rgba(28, 18, 43, 0.5)
@@ -40,7 +41,14 @@ header nav a {
     text-decoration: none;
     color: var(--whitecolor);
 }
+.job-card h3 a {
+    text-decoration: none;
+}
 
+.job-card h3 a:hover {
+    text-decoration: none;
+    color: var(--darkcolor1);
+}
 header nav a:hover,
 a:active,
 a:visited {
@@ -135,9 +143,33 @@ header h2 {
     font-weight: bold;
     text-decoration: none;
     box-shadow: 5px 5px 0px var(--lightcolor);
+
 }
 
-.btn a:hover {
+.btn1
+{
+    text-align: center;
+    border: 2px solid var(--lightcolor);
+    width: 9rem;
+    color: var(--darkcolor);
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .5rem;
+    box-shadow: 5px 5px 0px var(--lightcolor);
+    background-color: white;
+
+}
+
+
+.btn1:hover
+{
+    color: white;
+    background-color:var(--lightcolor1);
+
+}
+
+.btn a:hover  {
     background-color: var(--lightcolor1);
     color: var(--darkcolor);
 }
@@ -246,7 +278,10 @@ header h2 {
     border-radius: 0.5rem;
     border: 1px solid var(--whitecolor);
     margin: 2rem;
-    background-color: var(--whitecolor);
+}
+.coorporators div:hover {
+    transition: 1s;
+  background-color: var(--lightcolor1);
 }
 
 
@@ -364,6 +399,63 @@ header h2 {
     font-size: 1.5rem;
 }
 
+.services-card {
+    border: 1px solid var(--darkcolor);
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    text-align: left;
+}
+
+.services-card:hover {
+    background-color: var(--lightcolor2);
+}
+
+.services-card h3 {
+    color: var(--lightcolor);
+}
+
+.services-container h1
+.members-container h1 {
+    font-size: 2rem;
+    margin: 2rem;
+}
+.about-container h1
+{
+    font-size: 2rem;
+   margin: auto;
+    margin-top: 9rem;
+    border-bottom: var(--lightcolor) 2px solid;
+    padding: 1rem;
+
+}
+.about-container p
+{
+    font-size: 1.2rem;
+    text-align: left;
+
+}
+.services-container article {
+    font-size: 1.3rem;
+}
+
+.members-container img {
+    margin-top: 10rem;
+}
+
+.members-container {
+    color: var(--darkcolor);
+}
+
+.members-container article ,.about-container article{
+    background-color: rgb(235, 230, 230);
+    color: var(--darkcolor);
+    font-size: 1.3rem;
+    margin: 0;
+}
+
 
 /*******************************/
 
@@ -371,7 +463,27 @@ header h2 {
     margin-top: 7rem;
 }
 
+.contact-container img
+{
+    margin-top: 4rem;
+}
 
+.contact-container
+{
+    color: var(--darkcolor);
+    font-weight: bold;
+    text-align: left;
+}
+.contact-container h1
+{
+    font-size:2.1rem;
+}
+.contact-container form
+{
+    box-shadow: 3px 3px 1px 1px var(--darkcolor);
+    padding: 1.5rem;
+    border: var(--lightcolor1) solid 1px;
+}
 /************About****************/
 
 .about-container {
@@ -385,7 +497,7 @@ header h2 {
     color: var(--darkcolor);
     width: 80%;
     margin: 0 auto;
-    margin-top: 7rem;
+    margin-top: 9rem;
 }
 
 
@@ -479,9 +591,7 @@ footer h3 {
     .coorporators div {
         transition: 2s;
         width: 6rem;
-        border-radius: 0.5rem;
-        border: 1px solid var(--whitecolor);
-        background-color: var(--whitecolor);
+
         margin: 0.3rem;
     }
     .coorporators1 h1 {
