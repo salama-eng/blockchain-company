@@ -175,6 +175,32 @@ header h2 {
     background-color: white;
 
 }
+.btndash
+{
+    text-align: center;
+    border: 2px solid var(--lightcolor);
+    width: 6rem;
+    color:#3c2d50;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .5rem;
+    box-shadow: 5px 5px 0px var(--lightcolor);
+    background-color: white;
+
+}
+
+.btndash:hover
+{
+  
+    color: var(--whitecolor);
+
+    box-shadow: 5px 5px 0px var(--lightcolor);
+    background-color:var(--lightcolor1);
+
+
+}
+
 
 
 .btn1:hover
@@ -252,6 +278,24 @@ header h2 {
     width: 100%;
 }
 
+/**************MODEL ********************/
+.modal
+{
+    color: var(--darkcolor);
+}
+
+.modal h4
+{
+    color: var(--lightcolor);
+    font-size: 2.3rem;
+}
+
+
+.modal h3
+{
+    color: var(--lightcolor);
+    font-size:1.3rem;
+}
 
 /****************** cooorporators *****************/
 
@@ -516,6 +560,95 @@ header h2 {
     margin: 0 auto;
     margin-top: 9rem;
 }
+
+/************ PROFILE ****************/
+
+.side{
+    margin: 0;
+    background-color:var(--darkcolor);
+    border-radius: 0rem 4rem 4rem 0rem;
+ align-items: center;
+    
+}
+
+.side1{
+    margin: 0;
+    background-color:var(--darkcolor);
+    border-radius: 0rem 0rem 4rem 4rem;
+ align-items: center;
+    
+}
+
+.span{
+  border-bottom: 0.3vw solid var(--lightcolor);
+  border-radius:5rem;
+
+}
+.uldash li,nav ul li
+{
+    text-align: center;
+    font-size: 1.1rem;
+    text-align: left;
+    gap:0.5rem;
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: flex-start;
+ 
+
+   
+}
+.img1
+{
+    display: flex;
+    justify-content: center;
+}
+.ulinfo li
+{
+
+    display: flex;
+    align-items:flex-start;
+    justify-content: left;
+    gap:1rem;
+
+}
+
+.nav a
+{
+    text-decoration: none;
+    color: var(--whitecolor);
+
+}
+.nav a:hover
+{
+    text-decoration: none;
+    color: var(--lightcolor);
+
+}
+.article1
+{
+    background-color: rgb(241, 241, 241);
+    border-radius: 2rem;
+    text-align: left;
+}
+
+.dash h1
+{
+ color:var(--lightcolor);
+ font-size:2rem;
+ font-weight: bold;
+}
+
+.dash
+{
+
+ font-size:1.2rem;
+ display: flex;
+ justify-items: flex-start;
+ 
+}
+
 
 
 /**************START Footer**********************/
